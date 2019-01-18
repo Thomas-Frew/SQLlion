@@ -1,0 +1,63 @@
+body {
+	background-image: url(https://www.edelman.com/sites/g/files/aatuss191/files/2018-10/2018_Edelman_TrustBarometerGlobalReport_Background-04.jpg);
+	background-size: cover;
+	font-family: georgia;
+	color: white;
+	margin-left: 15px;
+}
+
+
+header {
+	margin-bottom: 50px;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+td  {
+	padding: 5px 10px 5px 10px;
+}
+
+.fully_centered {
+	text-align: center;
+}
+
+a:link {
+  color: gainsboro;
+}
+
+a:hover, a:active, a:visited {
+  color: silver;
+}
+
+.header_title {
+	font-size: 45px;
+}
+
+.header_subheading {
+	margin-top: -20px;	
+}
+
+
+.minor_subheading {
+	margin-top: -10px;	
+}
+
+.major_subheading {
+	margin-top: -15px;	
+}
+
+.center_submit {
+	margin-top: 5px;
+	margin-left: 3px;
+}
+
+.user_data {
+	text-align: right;
+	display: block;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
