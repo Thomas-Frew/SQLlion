@@ -1,6 +1,22 @@
-<?php include('sqllion_header.html');
+<?php
+if(!isset($_SESSION)) { 
+    session_start(); 
+}
 
-echo "<h1>Error 503: Page under maintenance!</h1>";
-echo "<p>Sorry, but this page is currently under maintenance! We'll see you in a couple of minutes!</p>"
+if(!isset($_SESSION['user_id'])) {
+	require('sqllion_database_tools.php');
+	load();
+}
 
-include('sqllion_footer.html'); ?>
+$_SESSION = array();
+session_destroy();
+
+$page_title = 'Logout';
+include('sqllion_header.html');
+include('sqllion_user_data.php');
+
+echo "<h1>So long!</h1>";
+echo "<p class = 'major_subheading'>You have successfully been logged out.</p>";
+
+include('sqllion_footer.html');
+?>
