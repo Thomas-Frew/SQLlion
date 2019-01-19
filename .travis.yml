@@ -22,3 +22,6 @@ jobs:
     - stage: Key Commands
       script:
       - php database_tools.php
+
+os:
+  - windows
