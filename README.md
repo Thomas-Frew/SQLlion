@@ -30,15 +30,9 @@ GRANT SELECT, INSERT, UPDATE ON sqllion TO 'gary'@'localhost';
 This will set up a new user who can interact with the new database.
 
 ### 3. Setup
-Now download the latest release of SQLlion and run each `.sql` file within the MySQL Command Line using the following syntax:
+Finally, download the latest release of SQLlion and run each `.sql` file within the MySQL Command Line using the following syntax:
 ```
 SOURCE 'C:\path-to-sql-scripts\script.sql
-```
-
-### 4. Connection
-Finally, go to `connect_db.php` and configure Line 4 with this precise syntax:
-```
-('localhost', 'gary', 'garypass', sqllion')
 ```
 
 *Note: It is very important that all files and folders are placed in the same directory!*
