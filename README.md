@@ -1,4 +1,4 @@
-# SQLlion [![Build Status](https://travis-ci.com/ThomasFrew/SQLlion.svg?branch=master)](https://travis-ci.com/ThomasFrew/Majorcord)
+# SQLlion [![CodeFactor](https://www.codefactor.io/repository/github/thomasfrew/sqllion/badge)](https://www.codefactor.io/repository/github/thomasfrew/sqllion)
 [SQLlion](https://github.com/ThomasFrew/SQLlion) is an open-source and simplistic online game which blends [PHP](http://www.php.net/) with [MySQL](https://www.mysql.com/) to create both aesthetical and functional interfaces. If you have the time, feel free to check *Installation* for directions on how to download and test SQLlion!
 
 ## Features
