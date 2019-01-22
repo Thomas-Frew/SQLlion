@@ -1,5 +1,5 @@
 body {
-	background-image: url(https://www.edelman.com/sites/g/files/aatuss191/files/2018-10/2018_Edelman_TrustBarometerGlobalReport_Background-04.jpg);
+	background-image: url(sqllion_images/background.png);
 	background-size: cover;
 	font-family: georgia;
 	color: white;
@@ -60,4 +60,3 @@ a:hover, a:active, a:visited {
     top: 10px;
     right: 30px;
 }
-
